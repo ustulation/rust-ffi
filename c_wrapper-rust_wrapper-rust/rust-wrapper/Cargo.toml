@@ -1,0 +1,14 @@
+[package]
+name = "rust_wrapper"
+version = "0.1.0"
+authors = ["ustulation <ustulation@gmail.com>"]
+
+[lib]
+name = "rust_wrapper"
+#crate-type = ["dylib"]
+crate-type = ["staticlib"]
+#crate-type = ["rlib"]
+#crate-type = ["bin"]
+
+[dependencies.rustlib]
+path = "../rustlib"
